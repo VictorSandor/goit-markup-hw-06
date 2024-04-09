@@ -20,10 +20,16 @@
   <body>
     <header class="page-header">
       <div class="container page-header-container">
+        <a class="logo header-logo" href="./index.html">
+          Web<span class="logo-header-studio">Studio</span>
+        </a>
+
+        <button class="mob-menu-btn" type="button">
+          <svg class="mob-menu-icon" width="16.8" height="14.4">
+            <use href="./images/icons.svg#icon-menu"></use>
+          </svg>
+        </button>
         <nav class="header-nav">
-          <a class="logo header-logo" href="./index.html">
-            Web<span class="logo-header-studio">Studio</span>
-          </a>
           <ul class="nav-link-list">
             <li>
               <a class="nav-link-item current" href="./index.html">Studio</a>
@@ -32,6 +38,7 @@
             <li><a class="nav-link-item" href="">Contacts</a></li>
           </ul>
         </nav>
+
         <!-- My contacts -->
         <address class="contacts">
           <ul class="contacts-list">
@@ -48,6 +55,68 @@
           </ul>
         </address>
       </div>
+
+      <!-- ===============MOBILE-MENU========================== -->
+
+      <!-- mobile-menu is-open -->
+      <div class="mobile-menu is-open">
+        <button class="mobile-menu-close" type="close-modal">
+          <svg class="close-button-icon" width="8" height="8">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+        <ul class="mobile-menu-list">
+          <li>
+            <a class="mobile-menu-link menu-cur" href="./index.html">Studio</a>
+          </li>
+          <li><a class="mobile-menu-link" href="">Portfolio</a></li>
+          <li><a class="mobile-menu-link" href="">Contacts</a></li>
+        </ul>
+        <ul class="mobile-menu-contacts">
+          <li>
+            <a
+              class="mobile-contacts-item contacts-cur"
+              href="tel:+110001111111"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
+          <li>
+            <a class="mobile-contacts-item" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+        </ul>
+        <ul class="mobile-menu-soc">
+          <li class="team-icons-list">
+            <a href="" class="team-icons">
+              <svg class="team-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="team-icons-list">
+            <a href="" class="team-icons">
+              <svg class="team-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="team-icons-list">
+            <a href="" class="team-icons">
+              <svg class="team-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="team-icons-list">
+            <a href="" class="team-icons">
+              <svg class="team-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-linkedin"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
     </header>
 
     <main>
@@ -59,6 +128,7 @@
         </div>
       </section>
 
+      <!-- SECTION 2 -->
       <section class="hidden">
         <div class="container">
           <h2 class="visually-hidden">Features</h2>
@@ -114,6 +184,8 @@
           </ul>
         </div>
       </section>
+      <!-- =============================== -->
+
       <!-- Our Team -->
       <section class="team">
         <div class="container">
@@ -493,7 +565,7 @@
 
     <!-- =================  Modal ===================-->
     <!-- "modal-overlay is-open" -->
-    <div class="modal-overlay is-open">
+    <div class="modal-overlay">
       <div class="modal">
         <button type="button" class="close-modal">
           <svg class="close-button-icon" width="8" height="8">
