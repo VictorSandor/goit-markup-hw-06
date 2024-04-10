@@ -59,7 +59,7 @@
       <!-- ===============MOBILE-MENU========================== -->
 
       <!-- mobile-menu is-open -->
-      <div class="mobile-menu i-open">
+      <div class="mobile-menu is-open">
         <button class="mobile-menu-close" type="close-modal">
           <svg class="close-button-icon" width="8" height="8">
             <use href="./images/icons.svg#icon-close"></use>
@@ -377,9 +377,21 @@
               <div class="portfolio-wpap">
                 <img
                   class="portfolio-img"
-                  src="./images/img5.jpg"
+                  srcset="./images/img5-mob.jpg 1x, ./images/img5-mob-2x.jpg 2x"
+                  src="./images/img5-mob.jpg"
                   alt="Banking App"
                   width="360"
+                />
+                <source
+                  media="(min-width: 1188px)"
+                  srcset="
+                    ./images/img5-desk.jpg    1x,
+                    ./images/img5-desk-2x.jpg 2x
+                  "
+                />
+                <source
+                  media="(max-width: 1187px) and (min-width: 768px)"
+                  srcset="./images/img5-tab.jpg 1x, ./images/img5-tab-2x.jpg 2x"
                 />
                 <p class="portfolio-cover-text">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -397,9 +409,21 @@
               <div class="portfolio-wpap">
                 <img
                   class="portfolio-img"
-                  src="./images/img6.jpg"
+                  srcset="./images/img6-mob.jpg 1x, ./images/img6-mob-2x.jpg 2x"
+                  src="./images/img6-mob.jpg"
                   alt="Cashless Payment"
                   width="360"
+                />
+                <source
+                  media="(min-width: 1188px)"
+                  srcset="
+                    ./images/img6-desk.jpg    1x,
+                    ./images/img6-desk-2x.jpg 2x
+                  "
+                />
+                <source
+                  media="(max-width: 1187px) and (min-width: 768px)"
+                  srcset="./images/img6-tab.jpg 1x, ./images/img6-tab-2x.jpg 2x"
                 />
                 <p class="portfolio-cover-text">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -417,9 +441,21 @@
               <div class="portfolio-wpap">
                 <img
                   class="portfolio-img"
-                  src="./images/img7.jpg"
+                  srcset="./images/img7-mob.jpg 1x, ./images/img7-mob-2x.jpg 2x"
+                  src="./images/img7-mob.jpg"
                   alt="Meditation App"
                   width="360"
+                />
+                <source
+                  media="(min-width: 1188px)"
+                  srcset="
+                    ./images/img7-desk.jpg    1x,
+                    ./images/img7-desk-2x.jpg 2x
+                  "
+                />
+                <source
+                  media="(max-width: 1187px) and (min-width: 768px)"
+                  srcset="./images/img7-tab.jpg 1x, ./images/img7-tab-2x.jpg 2x"
                 />
                 <p class="portfolio-cover-text">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -438,9 +474,21 @@
               <div class="portfolio-wpap">
                 <img
                   class="portfolio-img"
-                  src="./images/img8.jpg"
+                  srcset="./images/img8-mob.jpg 1x, ./images/img8-mob-2x.jpg 2x"
+                  src="./images/img8-mob.jpg"
                   alt="Taxi Service"
                   width="360"
+                />
+                <source
+                  media="(min-width: 1188px)"
+                  srcset="
+                    ./images/img8-desk.jpg    1x,
+                    ./images/img8-desk-2x.jpg 2x
+                  "
+                />
+                <source
+                  media="(max-width: 1187px) and (min-width: 768px)"
+                  srcset="./images/img8-tab.jpg 1x, ./images/img8-tab-2x.jpg 2x"
                 />
                 <p class="portfolio-cover-text">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -458,9 +506,21 @@
               <div class="portfolio-wpap">
                 <img
                   class="portfolio-img"
-                  src="./images/img9.jpg"
+                  srcset="./images/img9-mob.jpg 1x, ./images/img9-mob-2x.jpg 2x"
+                  src="./images/img9-mob.jpg"
                   alt="Screen Illustrations"
                   width="360"
+                />
+                <source
+                  media="(min-width: 1188px)"
+                  srcset="
+                    ./images/img9-desk.jpg    1x,
+                    ./images/img9-desk-2x.jpg 2x
+                  "
+                />
+                <source
+                  media="(max-width: 1187px) and (min-width: 768px)"
+                  srcset="./images/img9-tab.jpg 1x, ./images/img9-tab-2x.jpg 2x"
                 />
                 <p class="portfolio-cover-text">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -478,9 +538,27 @@
               <div class="portfolio-wpap">
                 <img
                   class="portfolio-img"
-                  src="./images/img10.jpg"
+                  srcset="
+                    ./images/img10-mob.jpg    1x,
+                    ./images/img10-mob-2x.jpg 2x
+                  "
+                  src="./images/img10-mob.jpg"
                   alt="Online Courses"
                   width="360"
+                />
+                <source
+                  media="(min-width: 1188px)"
+                  srcset="
+                    ./images/img10-desk.jpg    1x,
+                    ./images/img10-desk-2x.jpg 2x
+                  "
+                />
+                <source
+                  media="(max-width: 1187px) and (min-width: 768px)"
+                  srcset="
+                    ./images/img10-tab.jpg    1x,
+                    ./images/img10-tab-2x.jpg 2x
+                  "
                 />
                 <p class="portfolio-cover-text">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -569,7 +647,7 @@
 
     <!-- =================  Modal ===================-->
     <!-- "modal-overlay is-open" -->
-    <div class="modal-overlay">
+    <div class="modal-overlay i-open">
       <div class="modal">
         <button type="button" class="close-modal">
           <svg class="close-button-icon" width="8" height="8">
