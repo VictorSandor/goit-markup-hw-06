@@ -1745,7 +1745,7 @@ border: 1px solid #8E8F99;
   /* =============DESKTOP MODAL======== */
 
 
-  .modal-overlay {
+  .modal {
     width: 408px;
     min-height: 584px;
     padding: 72px 24px 24px 24px;
