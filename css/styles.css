@@ -1138,16 +1138,17 @@ border: 1px solid #8E8F99;
   /* ========================TABLET==================== */
 
 @media (min-width: 768px) and (max-width: 1157px) {
-    .mobile-menu {
-      display: none;
-    }
-  
+    
     .container {
       max-width: 1157px;
     }
   
     .header-logo {
       margin-right: 120px;
+    }
+
+    .mobile-menu {
+          display: none;
     }
   
     .mob-menu-btn {
@@ -1207,7 +1208,7 @@ border: 1px solid #8E8F99;
       gap: 12px;
     }
   
-    .nav-link-item {
+    .contacts-item {
       font-size: 12px;
       font-weight: 400;
       line-height: 1.5;
@@ -1470,7 +1471,7 @@ border: 1px solid #8E8F99;
       justify-content: flex-start;
       flex-direction: row;
       gap: 40px;
-      margin-right: 332px;
+      margin-right: 32px;
     }
 
     .current {
