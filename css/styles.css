@@ -75,7 +75,7 @@ input {
 }
 
 .section {
-  padding: 120px 0px 120px 0px;
+  padding: 96px 0px 96px 0px;
 }
  
 /* =============header==================== */
@@ -114,8 +114,6 @@ input {
   line-height: 117%;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  display: flex;
-  margin-left: 10px;
   margin-right: 149px;
   width: 115px;
 }
@@ -150,9 +148,11 @@ input {
 
 /* .nav-link-list викл.дисплей (display: flex) */
 .nav-link-list {
-  display: none;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
   gap: 40px;
-  margin-right: 332px;
 }
 
 .nav-link-item  {
@@ -167,7 +167,7 @@ input {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.nav-link-item:hover {
+/* .nav-link-item:hover {
   color: #404BBF;
 }
 
@@ -189,16 +189,14 @@ input {
   border-radius: 2px;
   height: 4px;
   width: 100%;
-}
+} */
 
 /* .contacts вимк.дісплей */
 .contacts {
-  font-style: normal;
-  display: none;
-  
+  display: none;  
 }
 
-.contacts-list {
+/* .contacts-list {
   display: flex;
   gap: 40px;
   margin-left: auto;
@@ -223,7 +221,7 @@ input {
 
 .contacts-item:focus {
   color: #404BBF;
-}
+} */
 
 /* ============== */
 
@@ -1454,6 +1452,10 @@ border: 1px solid #8E8F99;
       margin-right: 76px;
     }
 
+    .mobile-menu {
+          display: none;
+    }
+
     .mob-menu-btn {
       display: none;
     }
@@ -1468,7 +1470,7 @@ border: 1px solid #8E8F99;
       justify-content: flex-start;
       flex-direction: row;
       gap: 40px;
-      margin-right: 32px;
+      margin-right: 320px;
     }
 
     .current {
@@ -1517,6 +1519,7 @@ border: 1px solid #8E8F99;
       color: #434455;
       letter-spacing: 0.02em;
       transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+      
     }
 
     .contacts-item:hover,
@@ -1601,7 +1604,7 @@ border: 1px solid #8E8F99;
       font-weight: 400;
     }
 
-/* --------Our Team-------- */
+    /* --------Our Team-------- */
 
     .team-container {
       width: auto;
@@ -1728,72 +1731,72 @@ border: 1px solid #8E8F99;
     background-color: transparent;
     outline: none;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
+    }
 
-  .footer-button {
+    .footer-button {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
+    }
 
-  .footer-button:hover,
-  .footer-button:focus {
+    .footer-button:hover,
+    .footer-button:focus {
     background-color: #404bbf;
-  }
+    }
 
-  /* =============DESKTOP MODAL======== */
+    /* =============DESKTOP MODAL======== */
 
 
-  .modal {
+    .modal {
     width: 408px;
     min-height: 584px;
     padding: 72px 24px 24px 24px;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
+    }
 
-  .close-modal {
+    .close-modal {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
         border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
+    }
 
-  .close-modal:hover,
-  .close-modal:focus {
+    .close-modal:hover,
+    .close-modal:focus {
     background-color: #404bbf;
     border: none;
-  }
+    }
 
-  .close-modal:hover .close-button-icon,
-  .close-modal:focus .close-button-icon {
+    .close-modal:hover .close-button-icon,
+    .close-modal:focus .close-button-icon {
     fill: #ffffff;
-  }
+    }
 
-  .close-button-icon {
+    .close-button-icon {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
+    }
 
-  .modal-form {
+    .modal-form {
     width: 360px;
-  }
+    }
   
-  .modal-input:focus-within {
+    .modal-input:focus-within {
     border-color: #4d5ae5;
-  }
+    }
   
-  .modal-input:focus-within+.modal-icon {
+    .modal-input:focus-within+.modal-icon {
     fill: #4d5ae5;
-  }
+    }
 
-  .modal-icon-checkbox {
+    .modal-icon-checkbox {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
       border 250ms cubic-bezier(0.4, 0, 0.2, 1),
       fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
+    }
   
-  .send-button {
+    .send-button {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
+    }
   
-  .send-button:hover {
+    .send-button:hover {
     background-color: #404bbf;
-  }
+    }
 
 
 }
