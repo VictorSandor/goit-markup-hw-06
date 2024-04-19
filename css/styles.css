@@ -490,8 +490,7 @@ border: 1px solid #8E8F99;
   align-items: center;
   justify-content: flex-start;
   flex-direction: column;
-   row-gap: 48px;
-
+  row-gap: 48px;
   column-gap: 24px;
   flex-wrap: wrap;
 }
@@ -1329,7 +1328,7 @@ border: 1px solid #8E8F99;
       justify-content: flex-start;
       flex-wrap: wrap;
       column-gap: 0;
-      width: 584px;
+      width: 620px;
     }
   
     .footer-log {
