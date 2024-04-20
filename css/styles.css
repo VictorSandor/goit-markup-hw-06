@@ -84,8 +84,7 @@ input {
   /* border-bottom: 1px solid #e7e9fc - рамка кольор*/
   border-bottom: 1px solid #e7e9fc;  
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
-  padding-top: 12px;
-  padding-bottom: 12px;
+  padding: 0;
 }
 
 .container {
@@ -1134,7 +1133,7 @@ border: 1px solid #8E8F99;
 @media (min-width: 768px) and (max-width: 1157px) {
     
     .container {
-      max-width: 1157px;
+      max-width: 768px;
     }
   
     .header-logo {
@@ -1690,6 +1689,10 @@ border: 1px solid #8E8F99;
 
     .footer-social {
       margin-right: 80px;
+    }
+
+    .footer-social-head {
+      text-align: left;
     }
 
     .footer-social-list {
